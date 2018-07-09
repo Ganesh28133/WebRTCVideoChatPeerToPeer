@@ -7,9 +7,8 @@ window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogn
   || window.msSpeechRecognition || window.oSpeechRecognition;
 
 var config = {
+  //local System IP - 
   wssHost: 'ws://192.168.43.219:1333'
-  // wssHost: 'wss://wotpal.club'
-  // wssHost: 'wss://example.com/myWebSocket'
 };
 var localVideoElem = null, 
   remoteVideoElem = null, 
